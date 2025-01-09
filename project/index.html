@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video game blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Gamer Zone</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="Call of Duty- Modern Warfare II - World Gameplay Reveal Trailer.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>The Game Is On </h2>
+            <h3>Just Do It In Style</h3>
+            <p>Level up your gaming with our reviews and insights. Join us today for the ultimate gaming resource</p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000"></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000"></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/?size=100&id=13963&format=png&color=000000"></a></li>
+          </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })
+    </script>
+</body>
+</html>

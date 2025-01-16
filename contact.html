@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GameVerse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>GameVerse</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="upcoming.html">Upcoming</a>
+            <a href="news.html">News</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+
+    <main class="contact-container">
+        <h1 class="page-title">Get In Touch</h1>
+        <p class="contact-intro">Have questions, suggestions, or want to collaborate? We'd love to hear from you!</p>
+
+        <div class="contact-grid">
+            <!-- Contact Form Section -->
+            <section class="contact-form-section">
+                <h2>Send Us a Message</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a topic</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="review">Review Request</option>
+                            <option value="business">Business Proposal</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+
+            <!-- Contact Info Section -->
+            <section class="contact-info-section">
+                <div class="contact-card">
+                    <h2>Connect With Us</h2>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            <span>@GameVerse</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-discord"></i>
+                            <span>Join our Discord</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                            <span>GameVerse TV</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitch"></i>
+                            <span>Watch Live</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <h2>Business Hours</h2>
+                    <div class="business-hours">
+                        <div class="hours-row">
+                            <span class="day">Monday - Friday</span>
+                            <span class="time">9:00 AM - 6:00 PM EST</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Saturday</span>
+                            <span class="time">10:00 AM - 4:00 PM EST</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Sunday</span>
+                            <span class="time">Closed</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-card faq-card">
+                    <h2>Quick FAQs</h2>
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <h3>How can I submit a game for review?</h3>
+                            <p>Use our contact form and select "Review Request" as the subject.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>Want to advertise with us?</h3>
+                            <p>Choose "Business Proposal" in the contact form for advertising inquiries.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html> 

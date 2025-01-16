@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews - GameVerse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>GameVerse</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="reviews.html" class="active">Reviews</a>
+            <a href="upcoming.html">Upcoming</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main class="reviews-container">
+        <h1 class="page-title">Latest Game Reviews</h1>
+        
+        <div class="filters">
+            <select class="filter-select">
+                <option value="all">All Platforms</option>
+                <option value="ps5">PlayStation 5</option>
+                <option value="xbox">Xbox Series X</option>
+                <option value="pc">PC</option>
+                <option value="switch">Nintendo Switch</option>
+            </select>
+            <select class="filter-select">
+                <option value="newest">Newest First</option>
+                <option value="highest">Highest Rated</option>
+                <option value="lowest">Lowest Rated</option>
+            </select>
+        </div>
+
+        <div class="reviews-grid">
+            <article class="review-card">
+                <div class="review-header">
+                    <img src="elden-ring.jpg" alt="Elden Ring">
+                    <div class="platforms">
+                        <i class="fab fa-playstation" title="PlayStation 5"></i>
+                        <i class="fab fa-xbox" title="Xbox Series X"></i>
+                        <i class="fab fa-steam" title="PC"></i>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <h2>Elden Ring</h2>
+                    <div class="scores">
+                        <div class="score critic">
+                            <span class="score-label">Critic Score</span>
+                            <span class="score-value">96</span>
+                        </div>
+                        <div class="score user">
+                            <span class="score-label">User Score</span>
+                            <span class="score-value">92</span>
+                        </div>
+                    </div>
+                    <p class="review-text">An open-world masterpiece that redefines the action RPG genre with its stunning world design and challenging combat system.</p>
+                    <div class="review-meta">
+                        <span class="genre">Action RPG</span>
+                        <span class="release-date">Released: Feb 25, 2022</span>
+                    </div>
+                    <a href="#" class="read-more">Read Full Review</a>
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-header">
+                    <img src="gow.jpg" alt="God of War Ragnarök">
+                    <div class="platforms">
+                        <i class="fab fa-playstation" title="PlayStation 5"></i>
+                        <i class="fab fa-playstation" title="PlayStation 4"></i>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <h2>God of War Ragnarök</h2>
+                    <div class="scores">
+                        <div class="score critic">
+                            <span class="score-label">Critic Score</span>
+                            <span class="score-value">94</span>
+                        </div>
+                        <div class="score user">
+                            <span class="score-label">User Score</span>
+                            <span class="score-value">94</span>
+                        </div>
+                    </div>
+                    <p class="review-text">An epic continuation of Kratos and Atreus's journey, featuring stunning visuals, intense combat, and an emotionally charged narrative that pushes the boundaries of storytelling in games.</p>
+                    <div class="review-meta">
+                        <span class="genre">Action Adventure</span>
+                        <span class="release-date">Released: Nov 9, 2022</span>
+                    </div>
+                    <a href="#" class="read-more">Read Full Review</a>
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-header">
+                    <img src="baldur-3.jpg" alt="Baldur's Gate 3">
+                    <div class="platforms">
+                        <i class="fab fa-steam" title="PC"></i>
+                        <i class="fab fa-playstation" title="PlayStation 5"></i>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <h2>Baldur's Gate 3</h2>
+                    <div class="scores">
+                        <div class="score critic">
+                            <span class="score-label">Critic Score</span>
+                            <span class="score-value">97</span>
+                        </div>
+                        <div class="score user">
+                            <span class="score-label">User Score</span>
+                            <span class="score-value">95</span>
+                        </div>
+                    </div>
+                    <p class="review-text">A masterclass in RPG design that sets new standards for player choice, storytelling, and tactical combat. An instant classic that rewards creativity and experimentation.</p>
+                    <div class="review-meta">
+                        <span class="genre">RPG</span>
+                        <span class="release-date">Released: Aug 3, 2023</span>
+                    </div>
+                    <a href="#" class="read-more">Read Full Review</a>
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-header">
+                    <img src="zelda.jpg" alt="The Legend of Zelda: TOTK">
+                    <div class="platforms">
+                        <i class="fab fa-nintendo-switch" title="Nintendo Switch"></i>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <h2>Tears of the Kingdom</h2>
+                    <div class="scores">
+                        <div class="score critic">
+                            <span class="score-label">Critic Score</span>
+                            <span class="score-value">96</span>
+                        </div>
+                        <div class="score user">
+                            <span class="score-label">User Score</span>
+                            <span class="score-value">93</span>
+                        </div>
+                    </div>
+                    <p class="review-text">Nintendo's latest masterpiece expands on Breath of the Wild's foundation with innovative new mechanics and an even more captivating world to explore.</p>
+                    <div class="review-meta">
+                        <span class="genre">Action Adventure</span>
+                        <span class="release-date">Released: May 12, 2023</span>
+                    </div>
+                    <a href="#" class="read-more">Read Full Review</a>
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-header">
+                    <img src="starfield.png" alt="Starfield">
+                    <div class="platforms">
+                        <i class="fab fa-xbox" title="Xbox Series X|S"></i>
+                        <i class="fab fa-steam" title="PC"></i>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <h2>Starfield</h2>
+                    <div class="scores">
+                        <div class="score critic">
+                            <span class="score-label">Critic Score</span>
+                            <span class="score-value">83</span>
+                        </div>
+                        <div class="score user">
+                            <span class="score-label">User Score</span>
+                            <span class="score-value">79</span>
+                        </div>
+                    </div>
+                    <p class="review-text">Bethesda's ambitious space epic offers unprecedented scale and freedom in exploring the cosmos, despite some technical limitations and repetitive elements.</p>
+                    <div class="review-meta">
+                        <span class="genre">Action RPG</span>
+                        <span class="release-date">Released: Sep 6, 2023</span>
+                    </div>
+                    <a href="#" class="read-more">Read Full Review</a>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+</html> 
